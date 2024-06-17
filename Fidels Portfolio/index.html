@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta property="og:title" content="Page Tile" />
+	<meta property="og:description" content="Personal Site" />
+    <title>Portfolio Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel = "icon" href ="images\favicon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&family=Caveat:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c5836222c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav class="sticky">
+            <p class="myname">Fidel Barasa</p>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>  
+          <div class="header-text">
+            <p>Software Developer|Data Analyst|Digital Marketer.</p>
+            <h1>Hi, I'm Fidel  Barasa <br>From Kenya.</h1>
+          </div>
+        </div>
+
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="images/swaepapi.jpg" width="400px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1> 
+                    <p>I am a passionate web developer with experience in creating modern and responsive websites. 
+                        My goal is to deliver high-quality solutions that meets the needs of clients. I specialize in creating responsive and user-friendly websites that help businesses grow. 
+                        When I’m not coding, you can find me hiking or playing video games. If you’re interested in working with me, feel free to contact me through my website.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div> 
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br> Designing Web interface</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                        <li><span>App Development</span><br> Building android Apps</li>
+                    </ul>
+                </div>     
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2022</span><br>KCA University</li>
+                        <li><span>2014-2018</span><br> St Peters Mumias Boys Highschool</li>
+                        <li><span>2008-2014</span><br> Lugulu Boarding Primary</li>
+                    </ul>
+                </div>         
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+     <div class="container">
+        <h1 class="subtitle">My services</h1>   
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Designing and developing websites according to client specifications <br>
+                    Writing clean, efficient, and maintainable code <br>
+                    Collaborating with design teams to implement visual and interactive elements <br>
+                    Troubleshooting and debugging issues across multiple browsers and devices <br>
+                    Conducting website performance tests and optimizing for speed and scalability</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-table"></i>
+                <h2>Data Entry & Analysis</h2>
+                <p>Analysis using Python & R</p>
+                <p>Proficient in Ms Excel & SPSSS</p>
+                <p>Web research</p>
+                <p>Data Scrapping</p>
+                <p>Data cleaning & Formatting</p>
+                <p>Data Visualisalion & Reporting</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-ranking-star"></i>
+                <h2>Digital Marketing</h2>
+                <p>Google business management</p>
+                <p>Search Engine Optimization (SEO)</p>
+                <p>Social Media Management</p>
+                <p>Google Ads</p>
+                <p>Email Marketing</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>   
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>App that downloads online files </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>App for addition and subtracting numbers </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3>website </h3>
+                        <p>portfolio website  </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+<h1 class="sub-title">Contact Me</h1>
+<p><i class="fa-solid fa-paper-plane"></i>Fidelbarasa@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i>+254768290163</p>
+<div class="social-icons">
+    <a href="https://web.facebook.com/fiden.caxtro/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://twitter.com/Fidelpapii"><i class="fa-brands fa-square-x-twitter"></i></a>
+    <a href="https://www.instagram.com/swaepapi.___/"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/fidel-barasa-87aa80258/"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<!-- <button>><a href="images/My professional Resume.pdf" download class="btn btn2">Download CV</a></button> -->
+                </div>
+                <div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <textarea name="message"  rows="6" placeholder="Message"></textarea>
+    <button type="submit" class="btn btn2" >Submit</button>
+</form>
+<span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 My Website | Contact:fidelbarasa@gmail.com</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classlist.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById(sidemenu);
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbylMx9wxX_bBsRhQVh3BN0iFf30VrdHuuzj69tfUJ2TUg8Tili_3_4FoCqWEqcaroI3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+        
+      </script>
+
+</body>
+</html>
